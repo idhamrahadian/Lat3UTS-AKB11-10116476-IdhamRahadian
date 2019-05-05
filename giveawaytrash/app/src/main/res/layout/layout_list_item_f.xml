@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="1dp"
+    android:layout_marginBottom="3dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_marginRight="1dp"
+    android:layout_marginLeft="1dp">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="3dp"
+        android:background="#fff"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="270dp"
+            android:layout_height="370dp"
+            android:padding="2dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/friendGambar"/>
+        <TextView
+            android:id="@+id/namaFriendGambar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line 1"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
